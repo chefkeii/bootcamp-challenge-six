@@ -1,0 +1,116 @@
+:root {
+    --primary: #082a74;
+    --secondary: #a4dcf8;
+    --tertiary: #788085;
+    --light-dark: #66666f;
+    --dark: #14193a;
+    --border-radius: .3rem;
+    }
+    
+    html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    }
+    
+    .search-column {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    }
+    
+    .bg-header {
+    background-color: var(--primary);
+    color: #e8f4fa;
+    padding: 2%;
+    text-align: center;
+    }
+    
+    body {
+    margin: 2%;
+    }
+    
+    main {
+    display: block;
+    }
+    
+    h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    }
+    
+    h2 {
+    font-size: 30px;
+    }
+    
+    .h3 {
+    font-size: 20px;
+    }
+    
+    .btn {
+    background-color: var(--dark);
+    color: white;
+    }
+    
+    .current-weather-container {
+    border: 1px double blue;
+    }
+    
+    #city-search {
+    border: 2px double var(--tertiary);
+    }
+    
+    .card {
+    border: 2px double var(--tertiary);
+    padding: 2.5%;
+    }
+    
+    #display-five-day {
+    flex-wrap: wrap;
+    }
+    
+    .selected-city {
+    border: 2px double var(--tertiary);
+    }
+    
+    #today-city-weather {
+    display: inline-block;
+    text-align: center;
+    }
+    
+    #today-date {
+    display: inline-block;
+    text-align: center;
+    }
+    
+    #weather-icon {
+    display: inline-block;
+    text-align: center;
+    }
+    
+    .day1-container {
+    border: 1px double blue;
+    }
+    
+    .header {
+    background:var(--primary);
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 40%;
+    color:aliceblue;
+    }
+    
+    .card-header {
+    color: white;
+    background-color: var(--dark);
+    margin-top: 3%;
+    padding: 2%;
+    width:50%;
+    }
+    
+    
+    
+    
